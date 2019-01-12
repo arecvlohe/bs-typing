@@ -1,0 +1,13 @@
+{
+  "name": "bs-typing-animation",
+  "refmt": 3,
+  "reason": { "react-jsx": 2 },
+  "sources": ["src", "example"],
+  "package-specs": [
+    {
+      "module": "es6-global",
+      "in-source": false
+    }
+  ],
+  "bs-dependencies": []
+}
