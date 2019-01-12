@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Bucklescript bindings for Typed.js",
   "main": "lib/es6_global/src/Typing.js",
+  "repository": "git@github.com:arecvlohe/bs-typing.git",
   "author": "Adam Recvlohe <adam.recvlohe@gmail.com>",
   "license": "MIT",
   "keywords": [

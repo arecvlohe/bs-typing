@@ -1,8 +1,8 @@
 {
-  "name": "bs-typing-animation",
+  "name": "bs-typing",
+  "bsc-flags": ["-bs-super-errors"],
   "refmt": 3,
-  "reason": { "react-jsx": 2 },
-  "sources": ["src", "example"],
+  "sources": ["src", { "dir": "example", "type": "dev" }],
   "package-specs": [
     {
       "module": "es6-global",
