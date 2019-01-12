@@ -17,7 +17,8 @@
     "clean": "bsb -clean-world",
     "build": "bsb -make-world",
     "compile": "webpack",
-    "make": "yarn clean && yarn build && yarn compile"
+    "make": "yarn clean && yarn build && yarn compile",
+    "prepublish": "yarn clean && yarn build"
   },
   "peerDependencies": {
     "typed.js": "^2.0.9"
