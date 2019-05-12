@@ -18,7 +18,18 @@ Lastly, add `bs-typing` to `bsconfig.json`.
 
 ## Usage
 
-First, create an instance of the function and bind it to a variable. You do this by utilizing the `Type.make` and `Type.options` functions. The only required values for `Typed.make` is the `selector`, i.e. `"#typing-example`, which relates to an element in the DOM, and a `Typing.options` function which requires a `~typeSpeed` value.
+### `index.html`
+
+```html
+<html>
+  <body>
+    <span id="typing-example"></span>
+    <script src="bundle.js" type="module"></script>
+  </body>
+</html>
+```
+
+### `Example.re`
 
 ```reason
 let example =
@@ -38,3 +49,7 @@ let example =
 ```
 
 Take a look at the [Example.re file](./example/Example.re) for more examples.
+
+## Contribute
+
+Please open an issue or submit a PR if you find something you would like to improve!

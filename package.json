@@ -21,14 +21,11 @@
     "prepublish": "yarn clean && yarn build"
   },
   "peerDependencies": {
-    "typed.js": "^2.0.9"
-  },
-  "dependencies": {
-    "typed.js": "^2.0.9"
+    "typed.js": "2.0.10"
   },
   "devDependencies": {
-    "bs-platform": "^4.0.5",
-    "webpack": "^4.28.4",
-    "webpack-cli": "^3.2.1"
+    "bs-platform": "5.0.4",
+    "webpack": "4.31.0",
+    "webpack-cli": "3.3.2"
   }
 }
