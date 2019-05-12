@@ -1,6 +1,6 @@
 {
   "name": "bs-typing",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "BuckleScript bindings for Typed.js library",
   "main": "lib/es6_global/src/Typing.js",
   "repository": "git@github.com:arecvlohe/bs-typing.git",

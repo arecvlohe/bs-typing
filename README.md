@@ -31,7 +31,7 @@ Lastly, add `bs-typing` to `bsconfig.json`.
 
 ### `Example.re`
 
-```reason
+```reasonml
 let example =
   Typing.make(
     "#typing-example",
